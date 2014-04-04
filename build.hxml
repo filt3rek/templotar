@@ -1,0 +1,4 @@
+-cp src
+-main ftb.app.templotar.App
+-neko bin/Templotar.n
+-cmd nekotools boot bin/Templotar.n

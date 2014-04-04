@@ -1,0 +1,6 @@
+::use 'shell.mtt'::
+<h1>@@News@@</h1>
+<div class="news">
+	<p>@@Here are the news !@@</p>
+</div>
+::end::

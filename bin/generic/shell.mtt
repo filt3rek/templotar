@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>@@My Website@@</title>
+	</head>
+	<body>
+		<ul class="menu">
+			<li><a href="#">@@News@@</a></li>
+			<li><a href="#">@@Movies@@</a></li>
+			<li><a href="#">@@Connect@@</a></li>
+		</div>
+		<div class="content">::raw __content__::</div>
+		<div id="footer">
+			<p>@@All rights reserved@@</p>
+		</div>
+	</body>
+</html>

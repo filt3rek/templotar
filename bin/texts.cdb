@@ -1,0 +1,134 @@
+{
+	"sheets": [
+		{
+			"name": "generic",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "s",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"id": "Text_0",
+					"s": "News"
+				},
+				{
+					"id": "Text_1",
+					"s": "Here are the news !"
+				},
+				{
+					"id": "Text_2",
+					"s": "My Website"
+				},
+				{
+					"id": "Text_3",
+					"s": "Movies"
+				},
+				{
+					"id": "Text_4",
+					"s": "Connect"
+				},
+				{
+					"id": "Text_5",
+					"s": "All rights reserved"
+				}
+			],
+			"separators": [],
+			"props": {
+				"displayColumn": "s"
+			}
+		},
+		{
+			"name": "en",
+			"columns": [
+				{
+					"typeStr": "6:generic",
+					"name": "lid"
+				},
+				{
+					"typeStr": "1",
+					"name": "s",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"lid": "Text_0",
+					"s": "News"
+				},
+				{
+					"lid": "Text_1",
+					"s": "Here are the news !"
+				},
+				{
+					"lid": "Text_2",
+					"s": "My Website"
+				},
+				{
+					"lid": "Text_3",
+					"s": "Movies"
+				},
+				{
+					"lid": "Text_4",
+					"s": "Connect"
+				},
+				{
+					"lid": "Text_5",
+					"s": "All rights reserved"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "fr",
+			"columns": [
+				{
+					"typeStr": "6:generic",
+					"name": "lid"
+				},
+				{
+					"typeStr": "1",
+					"name": "s",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"lid": "Text_0",
+					"s": "Actualités"
+				},
+				{
+					"lid": "Text_1",
+					"s": "Here are the news !"
+				},
+				{
+					"lid": "Text_2",
+					"s": "My Website"
+				},
+				{
+					"lid": "Text_3",
+					"s": "Movies"
+				},
+				{
+					"lid": "Text_4",
+					"s": "Connect"
+				},
+				{
+					"lid": "Text_5",
+					"s": "All rights reserved"
+				}
+			],
+			"separators": [],
+			"props": {}
+		}
+	],
+	"customTypes": []
+}
