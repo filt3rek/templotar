@@ -18,7 +18,8 @@ It's a light command-line tool written in [Haxe](http://haxe.org) that helps to 
 
 Let's say we have 2 templo templates like that :
 
-	// shell.mtt
+*shell.mtt* :
+
 	<html>
 		<head>
 			<title>My Website</title>
@@ -36,11 +37,8 @@ Let's say we have 2 templo templates like that :
 		</body>
 	</html>
 
+*news.mtt* :
 
-
-
-	
-	// news.mtt
 	::use 'shell.mtt'::
 	<h1>News</h1>
 	<div class="news">
@@ -56,7 +54,8 @@ In order to begin the translation step, you have to surround all the words and s
 
 So the templates files look like that now :
 
-	// shell.mtt
+*shell.mtt* :
+
 	<html>
 		<head>
 			<title>@@My Website@@</title>
@@ -74,9 +73,8 @@ So the templates files look like that now :
 		</body>
 	</html>
 		
-	
-	
-	// news.mtt
+*news.mtt*
+
 	::use 'shell.mtt'::
 	<h1>@@News@@</h1>
 	<div class="news">
