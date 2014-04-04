@@ -101,5 +101,43 @@ When a word or a sentence is updated in the **.cdb** file like that :
 Then we can get the **new generated** templates like that :
 	
 	Templotar -i generic shell.mtt news.mtt -o . -l en,fr -cdb texts.cdb
+
+Let's see the new generated **fr** templates :
+
+*shell.mtt* :
+
+	<html>
+		<head>
+			<title>My Website</title>
+		</head>
+		<body>
+			<ul class="menu">
+				<li><a href="#">Actualités</a></li>
+				<li><a href="#">Movies</a></li>
+				<li><a href="#">Connect</a></li>
+			</div>
+			<div class="content">::raw __content__::</div>
+			<div id="footer">
+				<p>All rights reserved</p>
+			</div>
+		</body>
+	</html>
+
+*news.mtt* :
+
+	::use 'shell.mtt'::
+	<h1>Actualités</h1>
+	<div class="news">
+		<p>Here are the news !</p>
+	</div>
+	::end::
 	
 From now, this process can be done as many times as a new word or sentance is inserted into a generic template or a translation is done.
+
+### Add strings to the generic templates or change a default language string
+
+When the **preferred** language has been modified in the **.cdb** file, then it will be generated as usual. But if you modify too many strings for example and you want to **uniformize** the generic templates with the **preferred language** you can do that with the **-rg** option :
+
+	Templotar -i generic shell.mtt news.mtt -o . -l en,fr -cdb texts.cdb -rg
+	
+This way, the generic templates will be **overriden** with tokens taken from the **preferred langage**
