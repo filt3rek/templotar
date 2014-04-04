@@ -36,6 +36,7 @@ Let's say we have 2 templo templates like that :
 		</body>
 	</html>
 
+
 	
 	// news.mtt
 	::use 'shell.mtt'::
@@ -72,6 +73,7 @@ So the templates files look like that now :
 	</html>
 		
 	
+	
 	// news.mtt
 	::use 'shell.mtt'::
 	<h1>@@News@@</h1>
@@ -88,7 +90,7 @@ These new templates will be the **generic** ones.
 
 With this command we'll get 2 folders corresponding to the 2 generated languages : **en** and **fr** that contain the generated templates filled by default with the language used in the **generic** templates.
 
-We'll also get a **.cdb** file ([CastleDB](http://castledb.org)). Once opened, we'll see something like that :
+We'll also get a **.cdb** file ([CastleDB](http://castledb.org)). Once opened with the CastleDB Editor, we'll see something like that :
 	
 ![Screenshot 1](http://mromecki.fr/blog/post/59/screen1.jpg)
 	
@@ -98,6 +100,6 @@ When a word or a sentence is updated in the **.cdb** file like that :
 		
 Then we can get the **new generated** templates like that :
 	
-	Templotar -i generic shell.mtt news.mtt -o . -l en,fr **-cdb texts.cdb**
+	Templotar -i generic shell.mtt news.mtt -o . -l en,fr -cdb texts.cdb
 	
-From now, this process can be done as many times as a new word or sentance is inserted into a **generic** template or a translation is done.
+From now, this process can be done as many times as a new word or sentance is inserted into a generic template or a translation is done.
