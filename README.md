@@ -36,7 +36,9 @@ Let's say we have 2 templo templates like that :
 		</body>
 	</html>
 
- 
+
+
+
 	
 	// news.mtt
 	::use 'shell.mtt'::
